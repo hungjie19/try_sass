@@ -265,4 +265,37 @@ body {
   color: #01a5ca;
 }
 
-/*# sourceMappingURL=all.css.map */
+.slider-left {
+  float: left;
+  width: 640px;
+}
+
+.slider-right {
+  float: left;
+  width: 300px;
+  height: 415px;
+  background: #292929;
+}
+.slider-right h2 {
+  color: #01a5ca;
+  margin: 45px 0 0 45px;
+  font-size: 40px;
+}
+.slider-right div {
+  margin: 24px 50px 0 45px;
+}
+.slider-right div p {
+  color: #ababab;
+  line-height: 28px;
+}
+.slider-right a {
+  display: block;
+  margin: 24px 0 0 45px;
+  width: 98px;
+  color: #ffffff;
+  background: #3f3f3f;
+  padding: 17px;
+}
+.slider-right a:hover {
+  color: #01a5ca;
+}
