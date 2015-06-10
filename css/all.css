@@ -299,3 +299,60 @@ body {
 .slider-right a:hover {
   color: #01a5ca;
 }
+
+.box2 {
+  width: 940px;
+  position: absolute;
+  background: #ffffff;
+  top: 600px;
+}
+.box2 p {
+  margin: 31px 46px 31px 46px;
+  line-height: 28px;
+}
+.box2 em {
+  color: #01a5ca;
+}
+
+.box3 {
+  width: 940px;
+  position: absolute;
+  background: #ffffff;
+  top: 795px;
+}
+.box3 h2 {
+  font-size: 32px;
+  margin: 35px 0 18px 45px;
+}
+.box3 h2 em {
+  color: #01a5ca;
+}
+.box3 .block1 {
+  margin: 0px 0px 30px 45px;
+  width: 640px;
+  height: 150px;
+}
+.box3 .block1 .imgBg {
+  float: left;
+  background: #f4f4f4;
+  width: 195px;
+}
+.box3 .block1 .imgBg img {
+  padding: 5px;
+}
+.box3 .block1 .text-right {
+  float: left;
+  width: 370px;
+  margin-left: 30px;
+  line-height: 22px;
+  font-size: 14px;
+}
+.box3 .block1 .text-right em {
+  font-weight: bold;
+}
+.box3 .servicesList {
+  float: left;
+  width: 300px;
+}
+
+/*# sourceMappingURL=all.css.map */
