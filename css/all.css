@@ -300,59 +300,114 @@ body {
   color: #01a5ca;
 }
 
-.box2 {
+.centerContent {
   width: 940px;
   position: absolute;
   background: #ffffff;
   top: 600px;
 }
-.box2 p {
+.centerContent p {
   margin: 31px 46px 31px 46px;
   line-height: 28px;
+  color: #292929;
 }
-.box2 em {
+.centerContent em {
   color: #01a5ca;
 }
 
-.box3 {
+.serviceBlock {
   width: 940px;
-  position: absolute;
-  background: #ffffff;
   top: 795px;
+  background: #ffffff;
+  position: absolute;
+  font-size: 14px;
+  color: #292929;
 }
-.box3 h2 {
+.serviceBlock .serviceBlock-left {
+  width: 640px;
+  float: left;
+}
+.serviceBlock .serviceBlock-left h2 {
   font-size: 32px;
   margin: 35px 0 18px 45px;
+  color: #292929;
 }
-.box3 h2 em {
+.serviceBlock .serviceBlock-left h2 em {
   color: #01a5ca;
 }
-.box3 .block1 {
+.serviceBlock .serviceBlock-left .content {
   margin: 0px 0px 30px 45px;
   width: 640px;
   height: 150px;
 }
-.box3 .block1 .imgBg {
+.serviceBlock .serviceBlock-left .content .imgBg {
   float: left;
   background: #f4f4f4;
   width: 195px;
 }
-.box3 .block1 .imgBg img {
+.serviceBlock .serviceBlock-left .content .imgBg img {
   padding: 5px;
 }
-.box3 .block1 .text-right {
+.serviceBlock .serviceBlock-left .content .text-right {
   float: left;
-  width: 370px;
+  width: 320px;
   margin-left: 30px;
+  margin-right: 50px;
   line-height: 22px;
-  font-size: 14px;
 }
-.box3 .block1 .text-right em {
-  font-weight: bold;
+.serviceBlock .serviceBlock-left .content .text-right em {
+  font-weight: bolder;
+  color: #000;
 }
-.box3 .servicesList {
-  float: left;
+.serviceBlock .serviceBlock-right {
   width: 300px;
+  float: left;
+}
+.serviceBlock .serviceBlock-right h2 {
+  font-size: 32px;
+  margin: 35px 0 14px;
+}
+.serviceBlock .serviceBlock-right h2 em {
+  color: #01a5ca;
+}
+.serviceBlock .serviceBlock-right ul {
+  margin-left: 14px;
+  line-height: 2.2em;
+}
+.serviceBlock .serviceBlock-right li {
+  list-style-image: url("../images/icon_03.png");
+}
+.serviceBlock .serviceBlock-right input {
+  width: 210px;
+  height: 42px;
+  font-size: 14px;
+  padding-left: 15px;
+}
+.serviceBlock .serviceBlock-right input ::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+.serviceBlock .serviceBlock-right button {
+  width: 108px;
+  height: 42px;
+  margin-top: 15px;
+  color: #01a5ca;
+  background-color: #f4f4f4;
+  border-style: hidden;
+}
+
+footer {
+  top: 1250px;
+  position: absolute;
+  text-align: center;
+  width: 940px;
+  line-height: 1.8em;
+  padding-top: 36px;
+  padding-bottom: 48px;
+  color: #292929;
+  font-size: xx-small;
+}
+footer em {
+  color: #01a5ca;
 }
 
 /*# sourceMappingURL=all.css.map */

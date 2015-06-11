@@ -68,7 +68,7 @@ body
 		&:hover
 			color: $hot-color
 
-.box2
+.centerContent
 	width: $width
 	position: absolute
 	background: #ffffff
@@ -76,38 +76,87 @@ body
 	p
 		margin: 31px 46px 31px 46px
 		line-height: 28px
+		color: $def-color
 	em
 		color: $hot-color
 
-.box3
+.serviceBlock
 	width: $width
-	position: absolute
-	background: #ffffff
 	top: 795px
-	h2
-		font-size: 32px
-		margin: 35px 0 18px 45px
-		em
-			color: $hot-color
-	.block1		
-		margin: 0px 0px 30px 45px
-		width: 640px
-		height: 150px
-		.imgBg
-			float: left
-			background: #f4f4f4
-			width: 195px
-			img
-				padding: 5px
-		.text-right
-			float: left
-			width: 370px
-			margin-left: 30px
-			line-height: 22px
-			font-size: 14px
-			em
-				font-weight: bold
-	.servicesList
+	background: #ffffff
+	position: absolute
+	font-size: 14px
+	color: $def-color
+	.serviceBlock-left
+		width: $width - 300
 		float: left
+		h2
+			font-size: 32px
+			margin: 35px 0 18px 45px
+			color: $def-color
+			em
+				color: $hot-color
+		.content	
+			margin: 0px 0px 30px 45px
+			width: 640px
+			height: 150px
+
+			
+			.imgBg
+				float: left
+				background: #f4f4f4
+				width: 195px
+				img
+					padding: 5px
+			.text-right
+				float: left
+				width: 320px
+				margin-left: 30px
+				margin-right: 50px
+				line-height: 22px
+				
+				em
+					font-weight: bolder
+					color: #000
+
+	.serviceBlock-right
 		width: 300px
+		float: left
+		h2
+			font-size: 32px
+			margin: 35px 0 14px 
+			em
+				color: $hot-color
+		ul
+			margin-left: 14px
+			line-height: 2.2em
+		li
+			list-style-image: url("../images/icon_03.png")
+		input
+			width: 210px
+			height: 42px
+			font-size: 14px
+			padding-left: 15px
+			::-webkit-input-placeholder
+				color: #cfcfcf
+		button
+			width: 108px
+			height: 42px
+			margin-top: 15px
+			color: $hot-color
+			background-color: #f4f4f4
+			border-style: hidden
+footer
+	top: 1250px
+	position: absolute
+	text-align: center
+	width: $width
+	line-height: 1.8em
+	padding-top: 36px
+	padding-bottom: 48px
+	color: $def-color
+	font-size: xx-small
+	em
+		color: $hot-color
+		
 
