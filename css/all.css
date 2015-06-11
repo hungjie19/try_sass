@@ -200,7 +200,7 @@ a {
 }
 
 body {
-  background: url('/images/bg_html.jpg');
+  background-image: url("../images/bg_html.jpg");
 }
 
 .wrap {
