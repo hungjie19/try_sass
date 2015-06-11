@@ -317,6 +317,7 @@ body {
 
 .serviceBlock {
   width: 940px;
+  height: 450px;
   top: 795px;
   background: #ffffff;
   position: absolute;
@@ -324,11 +325,11 @@ body {
   color: #292929;
 }
 .serviceBlock .serviceBlock-left {
-  width: 640px;
+  width: 685px;
   float: left;
 }
 .serviceBlock .serviceBlock-left h2 {
-  font-size: 32px;
+  font-size: 28px;
   margin: 35px 0 18px 45px;
   color: #292929;
 }
@@ -350,7 +351,7 @@ body {
 }
 .serviceBlock .serviceBlock-left .content .text-right {
   float: left;
-  width: 320px;
+  width: 355px;
   margin-left: 30px;
   margin-right: 50px;
   line-height: 22px;
@@ -360,11 +361,11 @@ body {
   color: #000;
 }
 .serviceBlock .serviceBlock-right {
-  width: 300px;
+  width: 255px;
   float: left;
 }
 .serviceBlock .serviceBlock-right h2 {
-  font-size: 32px;
+  font-size: 28px;
   margin: 35px 0 14px;
 }
 .serviceBlock .serviceBlock-right h2 em {
@@ -378,7 +379,7 @@ body {
   list-style-image: url("../images/icon_03.png");
 }
 .serviceBlock .serviceBlock-right input {
-  width: 210px;
+  width: 195px;
   height: 42px;
   font-size: 14px;
   padding-left: 15px;
