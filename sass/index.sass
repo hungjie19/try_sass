@@ -18,7 +18,7 @@ body
 	position: absolute
 	right: 0px
 	top: 15px
-	a
+	li
 		float: left
 		margin-left: 15px
 	.fb
@@ -42,6 +42,10 @@ body
 		&:hover
 			color: $hot-color
 
+.slider
+	width: $width
+	height: 415px
+	margin-bottom: 35px
 .slider-left
 	float: left
 	width: 640px
@@ -71,24 +75,26 @@ body
 
 .centerContent
 	width: $width
-	position: absolute
+	float: left
+	margin-bottom: 35px
 	background: #ffffff
-	top: 600px
 	p
 		margin: 31px 46px 31px 46px
 		line-height: 28px
 		color: $def-color
 	em
 		color: $hot-color
+		margin-right: 5px
 
 .serviceBlock
 	width: $width
+	float: left
 	height: 450px
-	top: 795px
 	background: #ffffff
-	position: absolute
 	font-size: 14px
 	color: $def-color
+	margin-bottom: 35px
+
 	.serviceBlock-left
 		width: $width - 255
 		float: left
@@ -98,7 +104,8 @@ body
 			color: $def-color
 			em
 				color: $hot-color
-		.content	
+				margin-right: 7px
+		ul	
 			margin: 0px 0px 30px 45px
 			width: 640px
 			height: 150px
@@ -117,7 +124,7 @@ body
 				margin-right: 50px
 				line-height: 22px
 				
-				em
+				h3
 					font-weight: bolder
 					color: #000
 
@@ -129,6 +136,7 @@ body
 			margin: 35px 0 14px 
 			em
 				color: $hot-color
+				margin-right: 7px
 		ul
 			margin-left: 14px
 			line-height: 2.2em
@@ -145,20 +153,22 @@ body
 			width: 108px
 			height: 42px
 			margin-top: 15px
-			color: $hot-color
+			color: $def-color
 			background-color: #f4f4f4
 			border-style: hidden
+			&:hover
+				color: $hot-color
 footer
-	top: 1250px
-	position: absolute
+	float: left
 	text-align: center
 	width: $width
-	line-height: 1.8em
-	padding-top: 36px
-	padding-bottom: 48px
-	color: $def-color
-	font-size: xx-small
+	margin-bottom: 47px
+	p
+		line-height: 1.8em
+		color: $def-color
+		font-size: xx-small
 	em
 		color: $hot-color
+		margin-right: 7px
 		
 

@@ -229,7 +229,7 @@ body {
   right: 0px;
   top: 15px;
 }
-.topbar a {
+.topbar li {
   float: left;
   margin-left: 15px;
 }
@@ -264,6 +264,12 @@ body {
 }
 .menu a:hover {
   color: #01a5ca;
+}
+
+.slider {
+  width: 940px;
+  height: 415px;
+  margin-bottom: 35px;
 }
 
 .slider-left {
@@ -303,9 +309,9 @@ body {
 
 .centerContent {
   width: 940px;
-  position: absolute;
+  float: left;
+  margin-bottom: 35px;
   background: #ffffff;
-  top: 600px;
 }
 .centerContent p {
   margin: 31px 46px 31px 46px;
@@ -314,16 +320,17 @@ body {
 }
 .centerContent em {
   color: #01a5ca;
+  margin-right: 5px;
 }
 
 .serviceBlock {
   width: 940px;
+  float: left;
   height: 450px;
-  top: 795px;
   background: #ffffff;
-  position: absolute;
   font-size: 14px;
   color: #292929;
+  margin-bottom: 35px;
 }
 .serviceBlock .serviceBlock-left {
   width: 685px;
@@ -336,28 +343,29 @@ body {
 }
 .serviceBlock .serviceBlock-left h2 em {
   color: #01a5ca;
+  margin-right: 7px;
 }
-.serviceBlock .serviceBlock-left .content {
+.serviceBlock .serviceBlock-left ul {
   margin: 0px 0px 30px 45px;
   width: 640px;
   height: 150px;
 }
-.serviceBlock .serviceBlock-left .content .imgBg {
+.serviceBlock .serviceBlock-left ul .imgBg {
   float: left;
   background: #f4f4f4;
   width: 195px;
 }
-.serviceBlock .serviceBlock-left .content .imgBg img {
+.serviceBlock .serviceBlock-left ul .imgBg img {
   padding: 5px;
 }
-.serviceBlock .serviceBlock-left .content .text-right {
+.serviceBlock .serviceBlock-left ul .text-right {
   float: left;
   width: 355px;
   margin-left: 30px;
   margin-right: 50px;
   line-height: 22px;
 }
-.serviceBlock .serviceBlock-left .content .text-right em {
+.serviceBlock .serviceBlock-left ul .text-right h3 {
   font-weight: bolder;
   color: #000;
 }
@@ -371,6 +379,7 @@ body {
 }
 .serviceBlock .serviceBlock-right h2 em {
   color: #01a5ca;
+  margin-right: 7px;
 }
 .serviceBlock .serviceBlock-right ul {
   margin-left: 14px;
@@ -392,24 +401,28 @@ body {
   width: 108px;
   height: 42px;
   margin-top: 15px;
-  color: #01a5ca;
+  color: #292929;
   background-color: #f4f4f4;
   border-style: hidden;
 }
+.serviceBlock .serviceBlock-right button:hover {
+  color: #01a5ca;
+}
 
 footer {
-  top: 1250px;
-  position: absolute;
+  float: left;
   text-align: center;
   width: 940px;
+  margin-bottom: 47px;
+}
+footer p {
   line-height: 1.8em;
-  padding-top: 36px;
-  padding-bottom: 48px;
   color: #292929;
   font-size: xx-small;
 }
 footer em {
   color: #01a5ca;
+  margin-right: 7px;
 }
 
 /*# sourceMappingURL=all.css.map */
