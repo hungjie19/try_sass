@@ -233,6 +233,9 @@ body {
   float: left;
   margin-left: 15px;
 }
+.topbar a {
+  font-size: 0;
+}
 .topbar .fb {
   display: block;
   background: url("../images/dot_facebook.png");
