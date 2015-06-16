@@ -267,9 +267,8 @@ body {
 }
 
 .slider {
-  width: 940px;
-  height: 415px;
   margin-bottom: 35px;
+  overflow: auto;
 }
 
 .slider-left {
@@ -278,7 +277,7 @@ body {
 }
 
 .slider-right {
-  float: left;
+  float: right;
   width: 300px;
   height: 415px;
   background: #292929;
@@ -288,16 +287,14 @@ body {
   margin: 45px 0 0 45px;
   font-size: 40px;
 }
-.slider-right div {
-  margin: 24px 50px 0 45px;
-}
-.slider-right div p {
+.slider-right p {
+  margin: 24px 50px 24px 45px;
   color: #ababab;
   line-height: 28px;
 }
 .slider-right a {
   display: block;
-  margin: 24px 0 0 45px;
+  margin: 0 0 0 45px;
   width: 98px;
   color: #ffffff;
   background: #3f3f3f;
@@ -308,8 +305,7 @@ body {
 }
 
 .centerContent {
-  width: 940px;
-  float: left;
+  overflow: auto;
   margin-bottom: 35px;
   background: #ffffff;
 }
@@ -324,95 +320,93 @@ body {
 }
 
 .serviceBlock {
-  width: 940px;
-  float: left;
-  height: 450px;
+  overflow: auto;
   background: #ffffff;
   font-size: 14px;
   color: #292929;
   margin-bottom: 35px;
 }
-.serviceBlock .serviceBlock-left {
+
+.serviceBlock-left {
   width: 685px;
   float: left;
 }
-.serviceBlock .serviceBlock-left h2 {
+.serviceBlock-left h2 {
   font-size: 28px;
   margin: 35px 0 18px 45px;
   color: #292929;
 }
-.serviceBlock .serviceBlock-left h2 em {
+.serviceBlock-left h2 em {
   color: #01a5ca;
   margin-right: 7px;
 }
-.serviceBlock .serviceBlock-left ul {
+.serviceBlock-left li {
   margin: 0px 0px 30px 45px;
   width: 640px;
   height: 150px;
 }
-.serviceBlock .serviceBlock-left ul .imgBg {
+.serviceBlock-left img {
   float: left;
   background: #f4f4f4;
   width: 195px;
-}
-.serviceBlock .serviceBlock-left ul .imgBg img {
   padding: 5px;
+  margin-right: 30px;
 }
-.serviceBlock .serviceBlock-left ul .text-right {
+.serviceBlock-left h3 {
+  float: left;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+.serviceBlock-left p {
   float: left;
   width: 355px;
-  margin-left: 30px;
   margin-right: 50px;
   line-height: 22px;
 }
-.serviceBlock .serviceBlock-left ul .text-right h3 {
-  font-weight: bolder;
-  color: #000;
-}
-.serviceBlock .serviceBlock-right {
+
+.serviceBlock-right {
   width: 255px;
-  float: left;
+  float: right;
 }
-.serviceBlock .serviceBlock-right h2 {
+.serviceBlock-right h2 {
   font-size: 28px;
   margin: 35px 0 14px;
 }
-.serviceBlock .serviceBlock-right h2 em {
+.serviceBlock-right h2 em {
   color: #01a5ca;
   margin-right: 7px;
 }
-.serviceBlock .serviceBlock-right ul {
+.serviceBlock-right ul {
   margin-left: 14px;
   line-height: 2.2em;
 }
-.serviceBlock .serviceBlock-right li {
+.serviceBlock-right li {
   list-style-image: url("../images/icon_03.png");
 }
-.serviceBlock .serviceBlock-right input {
+.serviceBlock-right input {
   width: 195px;
   height: 42px;
   font-size: 14px;
   padding-left: 15px;
+  margin-bottom: 15px;
 }
-.serviceBlock .serviceBlock-right input ::-webkit-input-placeholder {
+.serviceBlock-right input ::-webkit-input-placeholder {
   color: #cfcfcf;
 }
-.serviceBlock .serviceBlock-right button {
+.serviceBlock-right button {
   width: 108px;
   height: 42px;
-  margin-top: 15px;
   color: #292929;
   background-color: #f4f4f4;
   border-style: hidden;
 }
-.serviceBlock .serviceBlock-right button:hover {
+.serviceBlock-right button:hover {
   color: #01a5ca;
 }
 
 footer {
-  float: left;
   text-align: center;
-  width: 940px;
   margin-bottom: 47px;
 }
 footer p {
